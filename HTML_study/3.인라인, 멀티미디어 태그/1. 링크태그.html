@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>링크태그 공부하기</title>
+    <style>
+        a{
+            display: block;
+        }
+        span{
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <span id="github">깃허브로 이동</span>
+
+    <a href="http://www.naver.com" target="_blank">
+        네이버 갈래 ?
+    </a>
+    <a href="http://www.google.com" target="_blank">
+        구글 갈래 ?
+    </a>
+    <a href="../1.요소성질/1.블록요소.html" target="_blank">
+        블록요소 페이지 갈래 ?
+    </a>
+    <a href="tel:+8201037132835">문의 전화</a>
+    <a href="maileto:jbj3713@naver.com">문의 메일</a>
+
+    <div id="top">
+        <h1>안녕하세요</h1>
+        <p style="height: 2000px;">반가반가반가반가반가반가반가반가
+            반가반가반가반가반가반가반가반가
+            반가반가반가반가반가반가반가반가
+            반가반가반가반가반가반가반가반가
+            반가반가반가반가반가반가반가반가
+            반가반가반가반가반가반가반가반가
+        </p>
+    </div>
+
+    <a href="#top">안녕하세요로 이동</a>
+
+
+    <script>
+        github.onclick = e => {
+            window.location.href = 'http://github.com';
+        };
+    </script>
+
+    
+</body>
+</html>
