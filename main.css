@@ -25,6 +25,7 @@ body{
 
 
 .main-header .main-header__brand{
+    color: white;
     font-size: 26px;
     font-weight: 700;
 }
@@ -150,4 +151,70 @@ body{
 
 #plans .plan-wrapper .plan .btn-group{
     margin: 20px 0;
+}
+
+/* key features style */
+#key-features{
+    background: #ff1b68;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+#key-features .section-title{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#key-features .key-feature__list{
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 50px;
+}
+
+#key-features .key-feature__list .key-feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+#key-features .key-feature__list .key-feature .key-feature__image{
+    width: 128px;
+    height: 128px;
+    background: pink;
+    border: 1px solid #424242;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#key-features .key-feature__list .key-feature__description{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+
+/* footer style */
+.main-footer{
+    background: #000;
+    height: 50px;
+    
+}
+
+.main-footer__links{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-footer__links .main-footer__link{
+    margin-top: 15px;
 }
