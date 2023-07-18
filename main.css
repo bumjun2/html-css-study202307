@@ -1,75 +1,11 @@
 @import url('common.css');
+@import url('include.css');
 
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
-/* hearder style */
-.main-header{
-    background: #000;
-    color: #fff;
-    padding: 30px 16px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.main-header h1{
-    /* background: yellowgreen; */
-    /* float: left; */
-
-    margin-left: 10px;
-    margin-top: 10px;
-
-    flex: 3;
-}
-
-
-.main-header .main-header__brand{
-    color: white;
-    font-size: 26px;
-    font-weight: 700;
-}
-
-.main-header .main-nav{
-    /* background: tomato; */
-    /* float: right; */
-    margin-top: 5px;
-    flex: 7;
-}
-.main-header .main-nav .main-nav__items{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.main-header .main-nav .main-nav__item {
-    /* border: 1px solid #fff; */
-    /* float: left; */
-    margin: 0 16px;
-}
-
-.main-header .main-nav .main-nav__item a{
-    display: block;
-    font-weight: 700;
-    padding: 3px 0;
-}
-
-.main-header .main-nav .main-nav__item a:hover{
-    color: #888;
-    border-bottom: 5px solid #888;
-}
-
-.main-header .main-nav .main-nav__item—cta a{
-    background: #ff1b68;
-    padding: 10px 16px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.main-header .main-nav .main-nav__item—cta a:hover{
-    border: none;
-    color: #ff1b68;
-    background: #fff;
-}
 
 #product-overview{
     background: url('/사진저장소/르사라핌띠.jpg') no-repeat center/cover;
@@ -201,20 +137,3 @@ body{
 }
 
 
-/* footer style */
-.main-footer{
-    background: #000;
-    height: 50px;
-    
-}
-
-.main-footer__links{
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.main-footer__links .main-footer__link{
-    margin-top: 15px;
-}
