@@ -1,10 +1,14 @@
 /* hearder style */
 .main-header{
-    background: #000;
+    background: rgba(0, 0, 0, 0.3);
     color: #fff;
     padding: 30px 16px;
     display: flex;
     justify-content: space-between;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .main-header h1{
