@@ -1,0 +1,70 @@
+/* reset */
+@import url('../../common.css');
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Ubuntu&display=swap');
+
+body{
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+
+/* header style */
+header {
+    background: orange;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+}
+
+header .inner-header {
+    /* background: red; */
+    /* background: rgba(0, 0, 0, 0.8); */
+    width: 92%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+header .inner-header .logo{
+    /* border: 2px solid aqua; */
+    flex: 1;
+}
+
+header .inner-header .logo img{
+    height: 60px;
+}
+
+header .inner-header .intro-text{
+    /* border: 2px solid violet; */
+    flex: 4;
+    font-weight: 700;
+    font-size: 1.3em;
+    /* 대문자로 바꾸기 */
+    text-transform: uppercase;
+}
+
+header .inner-header .menu-open{
+    /* border: 2px solid greenyellow; */
+    flex: 1;
+    font-weight: 700;
+    font-size: 1.2em;
+    align-self: stretch;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header .inner-header .menu-open .lnr-menu{
+    font-size: 33px;
+    margin-left: 15px;
+}
+
+header .gnb{
+    display: none;
+}
