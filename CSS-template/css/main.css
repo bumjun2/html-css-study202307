@@ -4,6 +4,13 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Ubuntu&display=swap');
 
+
+/* 큰 와이드 화면 1980해상도 */
+@import url('main-tablet.css');
+
+
+
+
 body{
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -368,3 +375,8 @@ footer .go-top{
     right: 50px;
     bottom: 60px;
 }
+
+
+
+
+
