@@ -5,6 +5,7 @@
     padding: 30px 16px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     position: fixed;
     width: 100%;
@@ -116,4 +117,9 @@
 
 .main-footer__links .main-footer__link{
     margin-top: 15px;
+}
+
+/* 모바일 전용 버튼 */
+.main-header .mobile-menu-btn{
+    display: none;
 }
