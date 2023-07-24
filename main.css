@@ -1,6 +1,6 @@
 @import url('common.css');
 @import url('include.css');
-/* @import url('main-tablet.css'); */
+@import url('https://cdn.linearicons.com/free/1.0.0/icon-font.min.css');
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -143,7 +143,6 @@ body{
     #product-overview{
         height: calc(50vh - 97px);
     }
-
     #plans .plan-wrapper{
         flex-direction: column;
         align-items: center;
@@ -160,4 +159,40 @@ body{
         display: none;
     }
  }
+
+ /* 모바일 414해상도 */
+ @media screen and (max-width : 414px){
+    .main-header .main-nav{
+        display: none;
+    }
+
+    .main-header h1{
+        margin: 0;
+    }
+
+    .main-header .main-header__brand{
+        font-size: 20px;
+    }
+    .main-header .mobile-menu-btn{
+        display: block;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    #product-overview{
+        height: calc(70vh - 70px);
+        margin-top: 70px;
+    }
+
+    #product-overview h2{
+        font-size: 22px;
+        animation: none;
+    }
+
+    #plans .plan-wrapper .plan{
+        width: 80%;
+    }
+ } 
+
+ 
 
